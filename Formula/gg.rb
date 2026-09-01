@@ -7,22 +7,22 @@ class Gg < Formula
   on_macos do
     on_arm do
       url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.0/gg_darwin_aarch64"
-      sha256 "7ed7420bbf456cf401a878109296ffb9e47755a1ab232520f4dfd20ae4ebcab2"
+      sha256 "8ecaf303f2679e9d3c329f68b73dd3364066d59b7b5208387d154c525c462171"
     end
     on_intel do
       url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.0/gg_darwin_x86_64"
-      sha256 "89c42884a7cf423ac48c8ed9edc6af47dfff57b28d1386501cf44bd316473b17"
+      sha256 "a2622167ed2089d4530d379a25a507e7ce61391b0a79c4596685b1db9bfabac0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.0/gg_linux_aarch64"
-      sha256 "60023e2604dfb39487ba4749994effa4cd7695335a297ce36c90484b5ba12999"
+      sha256 "11e4c554fa6f4cdd7dba8cf5769b4d0de0e5e613209f167bb9b41f226e6782de"
     end
     on_intel do
       url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.0/gg_linux_x86_64"
-      sha256 "03a8bec6288af847dcc4677caf5a33ce7832a7cbd1318d3a1270db39537e90a0"
+      sha256 "d5c3367430fe8ed32d6888eb8c53d54e9c4f6e36afc52c621be6bc68f6b2ad64"
     end
   end
 
