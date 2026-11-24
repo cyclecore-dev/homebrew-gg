@@ -1,28 +1,28 @@
 class Gg < Formula
   desc "The 2-letter agent-native git client - 98% token savings for AI agents"
   homepage "https://github.com/cyclecore-dev/gg"
-  version "0.10.1"
+  version "0.10.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.1/gg_darwin_aarch64"
-      sha256 "6238e9f4fb4a9d87a6a90b2dd8d8079f8900c19557339ea21fdd69f9c8574620"
+      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.2/gg-darwin-arm64"
+      sha256 "f887f3462c8bff9927df76152dc37e2774c0b3a5b7a3daa51d5d80590e52fc64"
     end
     on_intel do
-      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.1/gg_darwin_x86_64"
-      sha256 "389cb77086285bee6e4ea232153af31da8592e5e8306060920d4920176311c2d"
+      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.2/gg-darwin-amd64"
+      sha256 "b9b1af528e1249fa7934def9c92ff04757ea75907b93fab9d4a83d3145ea35e0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.1/gg_linux_aarch64"
-      sha256 "d61d96c519b920c906fe80ed85f83f1dfb479a06237b8032c86bc787ece197a5"
+      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.2/gg-linux-arm64"
+      sha256 "14e1b79336873383861c6a6d0762241c5f87c738d80bdefddb838a22bc33a033"
     end
     on_intel do
-      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.1/gg_linux_x86_64"
-      sha256 "2d0352b3ba0bb634d16f594344315b3693bce15d37e524e4d36e3bcaa94b552a"
+      url "https://github.com/cyclecore-dev/gg/releases/download/v0.10.2/gg-linux-amd64"
+      sha256 "71f374b1c17833377c8d295da004d944832b3534565893868ae53a41c65eec08"
     end
   end
 
